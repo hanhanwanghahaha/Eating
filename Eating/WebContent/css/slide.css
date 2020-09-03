@@ -1,0 +1,92 @@
+﻿			*{
+				margin: 0;
+				padding: 0;
+			}
+			.pptbox{
+				width: 400px;
+				height: 100px;
+				position: relative;
+				overflow: hidden;
+				display: none;
+			}
+			
+			.pptbox  .innerwrapper{
+				width:2400px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+				height: 100px;
+				list-style: none;
+				position: absolute;
+				left: -400px;
+			}
+			
+			.innerwrapper li
+			{
+				width:400px;
+				height:100px;
+				float: left;
+			}
+			.innerwrapper li a
+			{
+				display: block;
+			}
+			
+			.innerwrapper li a img
+			{
+				width: 400px;
+				height:100px;
+				display:block;
+			}
+			
+			.btnleft{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				left:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -10px 4px;
+				cursor: pointer;
+				z-index: 100;
+			}
+			
+			.btnright{
+				width: 20px;
+				height: 50px;
+				position: absolute;
+				right:0;
+				top:25px;
+				background-color: black;
+				background-image:url(../img/nav.png);
+				background-position: -54px 4px;
+				cursor: pointer;
+				z-index: 100;
+				
+			}
+			
+			/*控制按钮开始*/
+			
+			.controls{
+				width:96px;
+				position: absolute;
+				left:152px;
+				bottom:10px;
+				list-style: none;
+			}
+			.controls li{
+				width: 20px;
+				height:20px;
+				background-color: gold;
+				float: left;
+				margin-right:2px;
+				text-align: center;
+				border-radius:10px ;
+				cursor: pointer;
+			}
+			
+			.controls li.current
+			{
+				background-color:aqua;
+				color: brown;
+			}
+			
+			/*控制按钮结束*/

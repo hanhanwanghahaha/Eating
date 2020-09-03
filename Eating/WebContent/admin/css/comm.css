@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family:"微软雅黑";
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+
+ul{
+	list-style: none;
+}
+
+h3{
+	
+	line-height: 38px;
+}
+
+.tb{
+	width:calc(100% - 10px);
+	border-collapse: collapse;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.tb td{
+	border: solid 1px #eee;
+	height:35px;
+	padding-left: 5px;
+}
+
+.tb td.lable{
+	width: 100px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+
+
+.tb input{
+	width:300px;
+	height: 26px;
+}
+
+textarea{
+	width: 650px;
+	height:200px;
+	margin: 3px 0;
+}
+.path{
+	height: 30px;
+	margin-left: 5px;
+	line-height: 30px;
+	color: #333;
+}
+
+.tblis tr:hover{
+	background-color: #79C701;
+	color: white;
+}
+
+.tblis tr:hover a{
+	
+	color: white;
+}
+
+.tblis td{
+	text-align: center;
+}
+
+.tblis td.tdleft{
+	text-align: left;
+}
+
+.tblis td a{
+	margin-left:5px;
+}
+
+#btnsave{
+	width: 80px;
+	height: 26px;
+}

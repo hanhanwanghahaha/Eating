@@ -1,0 +1,107 @@
+#title{
+	border: solid 1px #ccc;
+	font-size: 25px;
+	height: 66px;
+	line-height: 66px;
+	padding-left: 5px;
+	position: relative;
+	box-shadow: 0px 3px 3px rgba(0,0,0,0.07);
+}
+
+#rightspan{
+	color: #E9E0E9;
+	font-size: 14px;
+	position: absolute;
+	right: 5px;
+	top: 0;
+}
+
+#rightspan a{
+	color: #616161;
+	text-decoration: none;
+}
+
+#proview{
+	width: 1350px;
+	height:500px;
+	position: relative;
+}
+
+#proview img{
+	width: 500px;
+    height: 300px;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+}
+
+#proviewdescription{
+	width:730px;
+	height:618px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#h3{
+	font-size:22px;
+	padding-top: 30px;
+	color: #212121;
+	font-weight: lighter;
+	border-bottom:solid 1px #eee;
+}
+
+.p1{
+	color: #B0B0B0;
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 5px;
+}
+
+.p1 span{
+	color: #3091f2;
+}
+
+p.price{
+	color: #3091f2;
+	font-size: 28px;	
+	margin:10px 0;
+}
+
+.btnaddtocar{
+	display:block;
+	width: 300px;
+	height: 54px;
+	background-color: #3091f2;
+	color: #fff;
+	text-align: center;
+	line-height:54px;
+	font-size: 18px;
+	margin-top: 30px;
+	border-radius:0px;
+	margin-bottom: 20px;
+	text-decoration: none;
+	border:0;
+	cursor: pointer;
+}
+
+.briefdiv{
+	background-color:#eee;
+	padding:15px;
+	border-radius:8px;
+	margin-top:20px;
+}
+
+p.reback{
+	padding-left: 0px;
+	background-image: url(../img/back1-2.png);
+	background-repeat: no-repeat;
+	background-position: 0 -5px;
+}
+
+#list{
+	line-height:30px;
+	font-size:14px;
+}

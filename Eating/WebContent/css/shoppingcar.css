@@ -1,0 +1,133 @@
+#carheader{
+	width: 100%;
+	height: 100px;
+	border-bottom: solid 2px #3091f2;
+}
+
+#carheaderwrapper{
+	height:100px;
+	position: relative;
+}
+
+#carlogo{
+	position: absolute;
+	left:0;
+	top:17px;
+}
+
+#mycar{
+	font-size:28px;
+	position: absolute;
+	left:77px;
+	top:33px;
+}
+
+#msg{
+	font-size: 12px;
+	color: #757575;
+	position: absolute;
+	left:248px;
+	top:50px;
+	margin-left: 10px;
+}
+
+
+#cartable{
+	margin-top: 50px;
+}
+
+#cartable tr td{
+	border-bottom: solid 1px #ccc;
+	text-align: center;
+	padding: 10px 0;
+	font-size: 14px;
+}
+
+#carbuy{
+	height: 90px;
+	line-height: 90px;
+	position: relative;
+}
+
+#carbuy a{
+	text-decoration: none;
+	color: #333;
+}
+
+#btnorder{
+	display: block;
+	width: 200px;
+	height: 50px;
+	background-color:#3091f2;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	position: absolute;
+	right:0;
+	top:20px;
+	
+}
+/* display: none; 可以隐藏一个元素  */
+#receiverinfo{
+	height:300px;
+	padding-top: 50px;
+	border: solid 1px #ccc;
+	display:none;
+}
+
+
+#btngotoorder{
+	display: block;
+	width: 305px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 17px;
+	margin-left:84px;
+}
+
+#receiverinfo p{
+	height: 50px;
+	font-size: 14px;
+	color: #333;
+	padding-left: 15px;
+}
+
+#receiverinfo input{
+	border: solid 1px #ccc;
+	height: 30px;
+	width: 300px;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+
+
+.pronumber{
+	margin: 0 auto;
+	width: 150px;
+	height: 40px;
+}
+
+/*display: block; 将行内元素转变为块级元素  就可以设置他的宽和高*/
+.pronumber span{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	color: #757575;
+	float: left;
+	cursor: pointer;
+}
+
+.pronumber input{
+	width:66px;
+	height:38px;
+	outline: none;
+	text-align: center;
+	border: 0;
+}
+ 

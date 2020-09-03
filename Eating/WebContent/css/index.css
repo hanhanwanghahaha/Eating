@@ -1,0 +1,775 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+	.mainboxtu1 .w1{
+				width: 50px;
+				height: 50px;
+				background-color: blue;
+	}
+	.mainboxtu11{
+		width: 435.5px;
+		height: 20%;
+		background-color: red;
+	}
+	.head{
+		width: 100%;
+		height: 54px;
+		background:-webkit-linear-gradient(left,#8B4513,#A0522D,#D2691E,#A0522D,#8B4513);
+		opacity: 0.9;
+		position: relative;
+		z-index: 10;
+	}
+	.hbox{
+		width: 1350px;
+		height: 54px;
+		background:-webkit-linear-gradient(left,#8B4513,#A0522D,#D2691E,#A0522D,#8B4513);
+		margin: 0 auto;
+		position: relative;
+		
+	}
+	.hbox a{
+		text-decoration: none;
+		margin: 0 40px;
+		line-height: 54px;
+		color: #F1FFFF;
+	}
+	.hbox a:hover{
+		text-decoration: none;
+		margin: 0 40px;
+		line-height: 54px;
+		color: 	#000000;
+		text-shadow:1px 1px 1px #C0C0C0	;
+	}
+	.hbox .hbox2{
+		position: absolute;
+		top: 2px;
+		right: 280px;
+	}
+	.logbox{
+		width: 1350px;
+		height: 320px; 
+		margin: 0 auto;
+		position: relative;
+		
+	}
+	.logbox .logbox1{
+		position: absolute;
+		top: 65px;
+		left: 20px;
+		 
+	}
+	.logbox1 .log1{
+		 color:#FFEBFC ;
+	}
+	.logbox .logbox2 table{
+		float: left;
+		 margin: 0 50px;  
+	}
+	.logbox h3{
+		color: #343434;
+	}.logbox h4{
+		color: #FFEBFC;
+	}
+	.logbox h5{
+		color: #FFEBFC;
+	}
+	.logbox .logbox2{
+		position: absolute;
+		bottom: 45px;
+		right: 50px;
+	}
+	.reasechbox{
+		width: 1350px;
+		height: 35px;
+		background-color:  #F7F7F7;
+		margin: 0 auto;
+		position: relative;
+	}
+	.reasechbox .reasechbox1 a{
+		text-decoration: none;
+		 
+	}
+	.reasechbox .reasechbox1{
+		position: absolute;
+		top: 6px;
+		left: 40px;
+	}
+	.reasechbox .reasechbox2{
+		position: absolute;
+		top: 6px;
+		left: 600px;
+	}
+	.reasechbox .reasechbox2 a{
+		text-decoration: none;
+	}
+	.reasechbox .reasechbox1 span{
+		 
+		 margin: 0 25px;
+	}
+	.reasechbox1 p a{
+		 
+		  color: #4E4A61;
+	}
+	.reasechbox2 p a{
+		 
+		  color: #4E4A61;
+	}
+	.reasechbox .reasechbox2 span{
+		 
+		 margin: 0 25px;
+	}
+	.reasechbox .reasechbox3{
+		width: 300px;
+		height: 35px;
+		 border: solid 1px #FFFFFF;
+		position: absolute;
+		top: 0;
+		right: 50px;
+	}
+	.reasechbox3 .input_text{
+	    width:217px;
+	    height: 33px;
+	    border:1px solid #3091f2;
+	    /*清除掉默认的padding*/
+        padding:0px;
+ 
+        /*提示字首行缩进*/
+        text-indent: 10px;
+ 
+        /*去掉蓝色高亮框*/
+        outline: none;
+ 
+        /*用浮动解决内联元素错位及小间距的问题*/
+        float:left;
+	}
+	 
+	.reasechbox3 .input_sub{
+        width:80px;
+        height: 35px;
+        background: #3091f2;
+        /*去掉submit按钮默认边框*/
+	    border:0px;
+	    /*改成右浮动也是可以的*/
+	    float:left;
+	    color:white;/*搜索的字体颜色为白色*/
+	    cursor:pointer;/*鼠标变为小手*/
+	}
+	.navbox{
+		width: 1350px;
+		height: 80px;
+		background-color: #FFFFFF;
+		margin: 0 auto;
+	}
+	.navbox p a{
+		text-decoration: none;
+		margin: 0 20px;
+		color: #686A5D;
+	}
+	.navbox p {
+		text-align: center;
+		line-height: 100px;
+	}
+	 
+	.root{
+		width: 100%;
+		height: 200px;
+		background-color: #F7F7F7;
+		margin: 0 auto;
+		float: left;
+		margin-top: 30px;
+	}
+	
+	.h1{
+		float: left;
+		
+		margin-left: 100px;
+		margin-top: 30px;
+	}
+	.h1 a{
+		text-decoration: none;
+		color: #9F9F9F;
+	}
+	.r1{
+		margin-left: 270px;
+	}
+	a{
+		text-decoration: none;
+		}
+	ul{
+		list-style: none;
+	}
+	
+	 
+	
+	.menu li{
+		width:149px;
+		height: 35px;
+		 
+		line-height: 35px;
+		text-align: center;
+		 
+		 
+		color: white;
+		cursor: pointer;
+		position: relative;
+		 
+	}
+	
+	.menu li:hover .subnav{
+		display: block;
+	}
+	
+	.subnav{
+		background:-webkit-linear-gradient(left,#A0522D,#D2691E,#A0522D);
+		width: 150px;
+		border-left: solid 1px #eee;
+		border-top: solid 1px #eee;
+		border-right: solid 1px #eee;
+		position: absolute;
+		left: -1px;
+		top: 35px;
+		display: none;
+	}
+	
+	.subnav a{
+		display: block;
+		text-decoration: none;
+		border-bottom: solid 1px #eee;
+		color: #fff;
+	}
+	.navbox3 .menu{
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		z-index: 10;
+	}
+	.navbox4 .menu{
+		position: absolute;
+		top: 10px;
+		right: 150px;
+		z-index: 10;
+	}
+	 .mainbox{
+	 	text-align: center;
+	 	width:1350px ;
+	 	height: 80px;
+	 	line-height:80px;
+	 	margin: 0 auto;
+	 	position: relative;
+	 	background-image: url(../img/index01.jpg);
+	 	background-size: 100% 80px;
+	 }
+	 .mainbox  p{
+		font-size: 20px;
+	 	color: #59607B;
+	 }
+	 .mainboxppt{
+	 	width: 1350px;
+	 	height: 50px;
+	 	background-color: #CBCBCB;
+	 	margin: 0 auto;
+	 	margin-top: 10px;
+	 }
+	 table a{
+	 	text-decoration: none;
+	 	color: #59607B;
+	 	letter-spacing: 4px;
+	 	margin-left: 42px;
+	 }
+	 table a:hover{
+	 	color: #FFFFFF;
+	 }
+	 #td1{
+	 	width: 1000px;
+		height: 50px;
+		margin: 0 auto;
+		border-left: 0;
+		border-right:0 ; 			
+	}
+	#td1 td{
+		border-radius: 15px;
+		border-right:0 ;
+	}
+	.a1{
+		background-color: #FFFFFF;
+	}
+	#td1 td:hover{
+		background-color: #CBCBCB;
+	}
+	 .mainboxtu{
+	 	width: 1350px;
+	 	height: 585px;
+	 	background-color: ;
+	 	margin: 0 auto;
+	 	margin-top: 10px;
+	 }
+	 
+	 .mainboxtu div.last{
+	 	width:427px;
+		margin-right: 0;
+	 }
+	 
+	 .mainboxtu1{
+	 	width: 427px;
+	 	height: 280px;
+	 	float: left;
+	 	margin-left: 11px;
+	 	margin-right: 11px;
+	 	margin-bottom: 25px;
+	 	transition: all 0.5s;
+	 }
+	
+	 .mainboxtu1:hover{
+	 	box-shadow: 0 0 25px rgba(0,0,0,0.3);
+	 }
+	 .boxtu01{
+	 	width: 280px;
+	 	height: 280px;
+	 	float: left;
+	 	background-image: url(../img/index03.jpg);
+	 	background-size: 280px 280px;
+	 }
+	 .boxtu01 img{
+	 	margin: 40px;
+	 	width: 200px;
+	 	height: 200px;
+	 }
+	 .boxtu02{
+	 	 width: 147px;
+	 	 height: 280px;
+	 	 float: left;
+	 	 background-image: url(../img/index02.jpg);
+	 	 background-size: 100% 280px;
+	 }
+	 .boxtu02 p{
+	 	padding-top: 25px;
+	    font-size: 14px;
+	    line-height: 30px;
+	    overflow: hidden;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	    -webkit-box-orient: vertical;
+	    word-break: break-all;
+	 }
+	 .mainboxtu1 p a{
+	 	text-decoration: none;
+	 	text-align: center;
+	 	color: #59607B;
+	 }
+	 .mainboxtu1 .button1{
+	 	width: 70px;
+	 	height: 35px;  
+	 	border-radius: 15px;
+	 	font-size: 20px;
+	 	background-color: #FF9700;
+	 	margin-top: 10px;
+	 	 
+	 }
+	 .button1:hover{
+		background-color: #EEEEEE;
+		color: blue;
+		 
+	}
+	.mainboxtu1 .p1{ 
+	 	width: 50px;
+	 	height: 70px;
+	 	margin-right: 0;
+	 	background-color:#FFFAEA ;
+	 	display: block;
+	 	
+	 }
+	 .mainboxtu1 .p2{
+	 	 
+	 	width: 70px;
+	 	height: 70px;
+	 	 margin-right: 0;
+	 	background-color:blanchedalmond ;
+	 	 display: block;
+	 	
+	 }
+	 .mainboxtu1 .p3{ 
+	 	width: 50px;
+	 	height: 70px;
+	 	margin-right: 0;
+	 	background-color:burlywood ;
+	 	display: block;
+	 	
+	 }
+	 .mainboxtu1 .p4{ 
+	 	width: 200px;
+	 	height: 70px;
+	 	margin-right: 0;
+	 	  
+	 	display: block;
+	 }
+	 .mainboxtu  p{
+	 	 
+	 	  float: left;
+	 	  margin: 0 10px;
+	 }
+	.mainboxtu .button2{
+		width: 10px;
+		height: 10px;
+		background-color: orange;
+		font-size: 40px;
+		text-decoration: none;
+		border-radius: 50px;
+	}
+	  
+	  
+	 .pptbox{
+		width: 400px;
+		height: 100px;
+		position: relative;
+		overflow: hidden;
+		display: none;
+	}
+	
+	.pptbox  .innerwrapper{
+		width:2400px;/*当增加了li之后，大盒子的宽度也要相应的增加 这里增加了两个li，每个400，所以ul 从原来的1600变成了2400*/
+		height: 100px;
+		list-style: none;
+		position: absolute;
+		left: -400px;
+	}
+	
+	.innerwrapper li
+	{
+		width:400px;
+		height:100px;
+		float: left;
+	}
+	.innerwrapper li a
+	{
+		display: block;
+	}
+	
+	.innerwrapper li a img
+	{
+		width: 400px;
+		height:100px;
+		display:block;
+	}
+	
+	.btnleft{
+		width: 20px;
+		height: 50px;
+		position: absolute;
+		left:0;
+		top:25px;
+		background-color: black;
+		background-image:url(../img/nav.png);
+		background-position: -10px 4px;
+		cursor: pointer;
+		z-index: 100;
+	}
+	
+	.btnright{
+		width: 20px;
+		height: 50px;
+		position: absolute;
+		right:0;
+		top:25px;
+		background-color: black;
+		background-image:url(../img/nav.png);
+		background-position: -54px 4px;
+		cursor: pointer;
+		z-index: 100;
+		
+	}
+	
+	/*控制按钮开始*/
+	
+	.controls{
+		width:96px;
+		position: absolute;
+		left:152px;
+		bottom:10px;
+		list-style: none;
+	}
+	.controls li{
+		width: 20px;
+		height:20px;
+		background-color: gold;
+		float: left;
+		margin-right:2px;
+		text-align: center;
+		border-radius:10px ;
+		cursor: pointer;
+	}
+	
+	.controls li.current
+	{
+		background-color:aqua;
+		color: brown;
+	}
+	
+	/*控制按钮结束*/
+	.logmainbox{
+		width: 1350px;
+		height: 80px;
+		margin: 0 auto;
+		text-align: center;
+		 margin-top:10px;
+		 background-image: url(../img/index01.jpg);
+		background-size: 100% 80px;
+		background-color:red;
+		color: #59607B;	 	  
+	 	font-size: 20px;
+	 	position: relative;
+	}
+	.logmainbox p{
+	position: absolute;
+	left:600px;
+	top:27px;
+	} 
+	 
+	 .logmainbox3{
+	 	width: 1350px;
+	 	min-height: 710px;
+	 	margin: 0 auto;
+	 	
+	 }
+	 .logmainbox31{
+	 	width: 300px;
+	 	height: 340px;
+	 	float: left;
+	 	margin-bottom: 10px;
+	 	margin-top: 10px;
+	 	margin-right: 37px;
+	 	transition: all 0.5s;
+	 	position: relative;
+	 }
+	 
+	 .logmainbox3 div.last{
+	 	width:300px;
+		margin-right: 0;
+	 	
+	 }
+	 .logmainbox31:hover{
+	 	box-shadow: 0 0 25px rgba(0,0,0,0.3);
+	 }
+	 .mainbox32{
+	 	width: 300px;
+	 	height: 260px;
+	 	float:left ;
+	 	 background-image: url(../img/index03.jpg);
+	 	background-size: 300px 260px;
+	 }
+	.mainbox32 img{
+	 	margin: 45px;
+	 	width: 210px;
+	 	height: 170px;	 
+	 }
+	 .mainbox33{
+	 	width: 300px;
+	 	height: 80px;
+	 	float: left;
+	 	background-image: url(../img/index02.jpg);
+	 	background-size: 300px 80px;
+	 }
+	 
+	 .mainbox33 span{
+	 	float: left;
+	 	padding-top: 5px;
+	 	padding-left: 20px;
+	 	display: block;
+	 	width: 125px;
+	 	height: 40px;
+	 	color: #59607B;
+	 	overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	 }
+	  .logmainboxright{
+	  	width: 20%;
+	  	height: 80%;
+	  	background-color: #ECDBA5;
+	    float: left;
+	    opacity: 0.5;
+	  }
+	  .mainbox33 .button2{
+	  	width: 20px;
+	  	height: 60px;
+	  	font-size: 40px;
+	  	background-color: orange;
+	  	position: absolute;
+	  	bottom: 0;
+	   	right: 0px;
+	    border-radius: 15px;
+		text-decoration: none;
+	  }
+	  
+	  .logmainboxbotm .p1{
+	  	width: 80px;
+	  	height: 100px;
+	  	background-color: #eee; 
+	  	float: left;
+	  }
+	   
+	  .logmainboxbotm .button1{
+	 	width: 70px;
+	 	height: 35px;
+	 	  
+	 	 border-radius: 15px;
+	 	 font-size: 20px;
+	 	 background-color: #FF9700;
+	 	 margin-top: 10px;
+	 	 margin-left: 70px;
+	 	 
+	 }
+	  .button1:hover{
+		background-color: #EEEEEE;
+		color: blue;
+		 
+	}
+	
+	 .navmainbox{  
+	 	width: 1350px;
+	 	height: 40px;
+	 	margin: 0 auto;
+	 	margin-top: 10px;
+	 	position: relative;
+	 }
+    .navmainbox .navmainbox1{
+	   	width: 100%;
+	   	height: 100%;
+	   	background-color: #FFF9EF;
+    }
+     
+    .navmainbox1 .a1{
+    	font-size: 30px;
+    	background-color: #FFF9EF;
+    }
+    .navmainbox1 .a2{
+    	font-size: 20px;
+    }
+    .navmainbox1 .a3{
+    	 text-decoration: none;
+    	 position: absolute;
+    	 top: 10px;
+    	 right: 0;
+    }
+    .navboxlog{
+    	width: 1350px;
+    	height: 200px;
+    	background-color:#FFF9EF;
+    	margin: 0 auto;
+    	position: relative;	        	 
+    	
+    }
+    .navboxlog a{
+     	text-decoration: none;
+     	color: #341908;
+    }
+    .navboxlog ul li{
+     	width: 300px;
+     	border: solid 1px #EEEEEE;
+     	position: relative;
+     	border-bottom: 0;
+    }
+    .navboxlog ul .l{ 
+     	border: solid 1px #EEEEEE;
+     	 
+    }
+    .navboxlog ul li span{
+     	position: absolute;
+     	top: 0;
+     	right: 0;
+    }
+    .navboxlog .p1{
+      	position: absolute;
+      	top: 50px;
+      	left: 0;
+    }
+    .navboxlog .p3{
+      	position: absolute;
+      	top: 50px;
+      	right: 310px;
+    }
+    .navboxlog .p2 {
+      	position: absolute;
+      	top: 50px;
+      	left: 120px;
+    }
+    .navboxlog .p4 {
+      	position: absolute;
+      	top: 50px;
+      	right: 2px;
+    }
+    .navboxlog p{
+      	font-size: 20px;
+      	 
+      	
+    }
+      
+    #carbox{
+      	width: 70px;
+      	height: 300px;
+      	position: fixed;
+      	right:10px;
+      	top: 200px;
+      	background-color: #eee;
+    }
+	ul
+	{
+		list-style: none;
+	}
+	.menubox
+	{
+		width: 70px;
+		
+	}
+	.menubox li
+	{
+		width: 40px;
+		height: 44px;
+		line-height: 44px; 
+		margin: 0 auto; 
+	}
+	.submenu
+	{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top:-50px;
+		display: none;
+		text-align: center;
+		  
+	}
+	.menubox li:hover .submenu
+	{
+		display: block;
+	}
+	.mainbox #pronum{ 	
+	}  
+	.mainbox li img{
+	 margin: 0 auto;
+	} 
+	
+.mainbox33 .p4{
+	width: 100px;
+    height: 30px;
+    background-color: red;
+}
+.boxtu02 .p4{
+	width: 100px;
+    height: 20px;
+    background-color: red;
+     
+}
+.cai{
+	-webkit-transition: all ease-out .5s;
+    -o-transition: all ease-out .5s;
+    transition: all ease-out .5s;
+    -ms-transition: all ease-out .5s;
+}
+.cai:hover{
+	box-shadow: #59607B 1px 1px 5px 1px ;
+	-webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}

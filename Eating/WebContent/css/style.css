@@ -1,0 +1,91 @@
+.news {
+    width: 1350px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.g-title {
+	text-align: center;
+	line-height: 58px;
+	/* padding: 0 30px; */
+	font-size: 30px;
+	font-weight: 500;
+	color: #303445;
+	letter-spacing: 2px;
+	border-top: 10px solid #f4f4f4;  
+}
+/*功能特性 start */
+.core-function {
+  text-align: center;
+  margin-top: 48px;
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0;
+}
+
+.core-function-item {
+  width: 220px;
+  height: 160px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-right: 62px;
+  margin-bottom: 42px;
+  position: relative;
+  overflow: hidden;
+}
+
+.core-function-item:nth-child(5n) {
+  margin-right: 0;
+}
+
+.core-function-img-hover {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.core-function-item:hover .core-function-img-hover {
+  visibility: visible;
+}
+
+.core-function-item h4 {
+  color:rgba(255,255,255,1);
+  font-size:24px;
+  height: 24px;
+  line-height: 24px;
+  font-weight:400;
+  position: absolute;
+  top: 64px;
+  width: 100%;
+  transition: top .3s;
+}
+
+.core-function-item p {
+  position: absolute;
+  font-size:14px;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  width: 100%;
+  transition: top .3s;
+}
+
+.core-function-item:hover .core-function-p1 {
+  top: 78px;
+}
+
+.core-function-item:hover .core-function-p2 {
+  top: 102px;
+}
+
+.core-function-item:hover h4 {
+  top: 39px;
+}
+
+
+ 
+ 
+ 
+
+ 

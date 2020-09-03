@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+ul{
+	list-style: none;
+}
+
+.innerclass{
+	width: 1350px;
+	margin: 0 auto;	
+}
+
+#top{
+	background-color: #333333;
+	height: 39px;
+}
+
+
+#topinner{
+	height: 39px;
+	font-size: 12px;
+	color:#B0B0B0;
+	position: relative;
+}
+
+
+#topinner a{
+	color:#B0B0B0;
+	font-size: 12px;
+	text-decoration: none;
+	line-height: 39px;
+	margin-left: 5px;
+	margin-right:5px;
+}
+
+#topright{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#car{
+	background-image: url(../img/carbg.png);
+	padding:11px 0px;
+	background-repeat: no-repeat;
+	padding-left:34px;
+	background-color:#424242;
+	padding-right: 5px;
+}
+
+#header{
+	height: 100px;
+	position: relative;
+}
+
+#logo{
+	position: absolute;
+	top: 22px;
+	left: 0;
+}
+
+#nav{
+	position: absolute;
+	left: 234px;
+	top: 40px;
+	
+}
+
+#nav a{
+	color: #333;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0 9px;
+}
+
+#search{
+	width:294px;
+	height:48px;
+	border: solid 1px #E0E0E0;
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+
+
+#search input{
+	width:235px;
+	height:48px;
+	border: 0;
+	outline: none;
+	padding-left: 5px;
+}
+
+#btnsearch{
+	height:48px;
+	width:48px;
+	background-image:url(../img/search.png) ;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-position:5px 7px;
+	cursor: pointer;
+}
+
+#service{
+	height: 50px;
+	padding-top: 50px;
+	color:#E0E0E0;
+	border-bottom: solid 1px #ccc;
+}
+
+#service a{
+	color: #616161;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	padding: 20px 35px;
+	background-position: 0 11px;
+	padding-right:90px;
+}
+
+#bottomwrapper{
+	height:160px;
+	position: relative;
+	padding-top:30px;
+}
+
+#bottomleft{
+	width: 960px;
+	height:160px;
+}
+
+
+#bottomleft dl{
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+
+#bottomleft dl dt{
+	color: #424242;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+#bottomleft dl dd{
+	color:#757575;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+#bottomright{
+	width: 252px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 30px;
+	background-image: url(../img/bottomright.png);
+}
+
+#copyright{
+	height: 120px;
+	background-image: url(../img/bottombg.png);
+	font-size: 12px;
+	color: #757575;
+}
+
+#copyright a{
+	color: #757575;
+	text-decoration: none;
+}
+
+#copyright p{
+	padding-left:80px;
+	color: #B0B0B0;
+}
+
+#copyright p.first
+{
+	padding-top:29px;
+}
+
+.pager a {
+     text-decoration:none;
+     color:#000;        
+ }
+
+a{
+	text-decoration: none;
+	color: #333;
+}
+

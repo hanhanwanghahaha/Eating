@@ -1,0 +1,89 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+ul li{
+	list-style: none;
+	width: 40px;
+	height: 40px;
+	color: #FFF0F5;
+	font-family: "华文行楷";
+	font-size: 25px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	animation: animate 1.8s ease-in-out infinite;
+}
+
+@keyframes animate{
+	0%,50%,100%
+	{
+		transform: scale(0.2);
+	}
+	25%
+	{
+		transform: scale(1);
+	}
+}
+
+ul li:nth-child(1)
+{
+	animation-delay: 1.8s;
+	background: #F00;
+	box-shadow: 0 0 25px #F00;
+}
+
+ul li:nth-child(2)
+{
+	animation-delay: -1.6s;
+	background: #F60;
+	box-shadow: 0 0 25px #F60;
+}
+
+ul li:nth-child(3)
+{
+	animation-delay: -1.4s;
+	background: #FFD700;
+	box-shadow: 0 0 25px #FFD700;
+}
+ul li:nth-child(4)
+{
+	animation-delay: -1.2s;
+	background: #0C0;
+	box-shadow: 0 0 25px #0C0;
+}
+ul li:nth-child(5)
+{
+	animation-delay: -1.0s;
+	background: #7FFF00;
+	box-shadow: 0 0 25px #7FFF00;
+}
+ul li:nth-child(6)
+{
+	animation-delay: -0.8s;
+	background: #06C;
+	box-shadow: 0 0 25px #06C;
+}
+ul li:nth-child(7)
+{
+	animation-delay: -0.6s;
+	background: #909;
+	box-shadow: 0 0 25px #909;
+}
+ul li:nth-child(8)
+{
+	animation-delay: -0.4s;
+	background: #F00;
+	box-shadow: 0 0 25px #F00;
+}
